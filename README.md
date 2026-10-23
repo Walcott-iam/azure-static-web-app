@@ -14,4 +14,4 @@ This project demonstrates a complete end-to-end deployment of a web application 
 - **Secrets Management:** Configured the `APP_ENVIRONMENT` secret in GitHub Actions to securely manage deployment variables without hardcoding them.
 
 ## Live Website
-[INSERT YOUR LIVE AZURE URL HERE]()
+![INSERT YOUR LIVE AZURE URL HERE](https://github.com/Walcott-iam/azure-static-web-app/blob/main/live%20website.png)
