@@ -1,4 +1,4 @@
-# Cloud Services & Web App Deployment
+# Azure Static Web App
 
 ## Project Overview
 This project demonstrates a complete end-to-end deployment of a web application using Microsoft Azure Static Web Apps. It includes CI/CD automation, secure secrets management, and global networking.
