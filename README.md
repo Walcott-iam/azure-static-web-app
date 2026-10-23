@@ -1,7 +1,7 @@
-# Azure Static Web App - Task 3
+# Cloud Services & Web App Deployment
 
 ## Project Overview
-This project demonstrates the deployment of a static web application using Microsoft Azure Static Web Apps. It covers setting up a global CDN, connecting a GitHub repository for automated CI/CD deployment, and managing application configurations securely.
+This project demonstrates a complete end-to-end deployment of a web application using Microsoft Azure Static Web Apps. It includes CI/CD automation, secure secrets management, and global networking.
 
 ## Architecture
 - **Frontend:** HTML, CSS, JavaScript
@@ -9,6 +9,9 @@ This project demonstrates the deployment of a static web application using Micro
 - **CI/CD:** GitHub Actions (Automated deployment on push to the `main` branch)
 
 ## Key Objectives Met
-- Deployed a live web application to the cloud.
-- Configured virtual networking and global content delivery.
-- Managed environment variables and secrets securely via GitHub Actions.
+- **Compute & Storage:** Hosted static files globally via Azure's edge network.
+- **Networking:** Automatically provisioned a secure HTTPS URL and global CDN.
+- **Secrets Management:** Configured the `APP_ENVIRONMENT` secret in GitHub Actions to securely manage deployment variables without hardcoding them.
+
+## Live Website
+[INSERT YOUR LIVE AZURE URL HERE]()
