@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Services & Web App Deployment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Cloud Services & Web App Deployment</h1>
+        <p class="subtitle">Deployed on Azure Static Web Apps</p>
+    </header>
+
+    <main class="main">
+        <div class="cards-grid">
+            <article class="card">
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                </div>
+                <h3 class="card-title">Compute Services</h3>
+                <p class="card-description">Scalable virtual machines, containers, and serverless functions for running applications.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <h3 class="card-title">Object Storage</h3>
+                <p class="card-description">Durable, highly available blob storage for unstructured data like images, videos, and backups.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="1" y="1" width="22" height="22" rx="2" ry="2"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="16.62" y1="16.62" x2="22.62" y2="22.62"></line>
+                    </svg>
+                </div>
+                <h3 class="card-title">Virtual Networking</h3>
+                <p class="card-description">Secure, isolated networks with VPN, load balancing, and private connectivity options.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="23 4 23 10 17 10"></polyline>
+                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                        <line x1="17" y1="20" x2="22.92" y2="15"></line>
+                        <polyline points="1 4 1 10 7 10"></polyline>
+                        <path d="M3.51 15a9 9 0 1 1 2.12-9.36L1 10"></path>
+                        <line x1="7" y1="20" x2="1.08" y2="15"></line>
+                    </svg>
+                </div>
+                <h3 class="card-title">CI/CD Automation</h3>
+                <p class="card-description">Automated build, test, and deployment pipelines for continuous delivery to cloud environments.</p>
+            </article>
+        </div>
+
+        <div class="interaction-section">
+            <button id="test-connection-btn" class="btn">Test Live Connection</button>
+            <p id="connection-status" class="status-text"></p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Built for Codomax Internship Task 3</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
